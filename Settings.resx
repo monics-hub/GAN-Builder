@@ -1,0 +1,602 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="pythonBrowser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="searchButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="searchButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="searchButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAAsFJREFUWEftlk9o01Acx3tQPPgPvHjwoiIKO+hhTaJNyhQ9KHrYDpsgehL8B1ME
+        UaZJqzIQdlBG1YPINp3bSYZMVw8Tp2vT7uBBnWy76FE2xSVhtGkdNX6zPWVNfu0MPA+DfeHDa9b8ft/v
+        63t5WWhZS061p5yVgmbsF2LmFVE12iXNuCuoxg0xZjbWXDQ3sNv+jyTNPCdqxpQUMx0KfFcQNet+TdxZ
+        w0r4Cc0vg1nMNoHxLRVgAa9ZGT+JmvkRPHc/Sy2TGwnTMnZdzW2aK+QlzHocfBe16cMYWynTMuLGZlbK
+        R24A0qgSvAOEr/2IhOPmAS8I9o17ADxm17HeM2he+gd+UQF6e1sbbF0pMWZBvzMirmMWlSWp1nGqYVD6
+        n8brC5mosxCE6GE2lYUZTVANg5IdOHOICFCyU8pWZuVXWLV2UM2CguUbLerKCW+AOXT5ArPzKxwzj1IN
+        gwDzXGPbp4OY7RgVIK8rnczOL5zvzVTTv2imhZPwBUy6ce8jLFcXzoUOQZt+iPGBoJltLff66gq6MkSZ
+        u9gZZYDZ+VUtAF48yTfPmvehecLWo90Yn4AeNnZixl0gCWYo4z/g+yoBVLOJMsfMvnwerD+C4gLVNBhy
+        B7PzS4hb28kAeAHBfJhuGJCscp7Z0cJ7fcwXAGtrp5VRsmEAMImSPRLdwqxoYRmOeQNg/W+hmNzVwZAf
+        M5vqwoxV7HQDu7w4j3UTASaopvj7T1BcBBvnQp+TjqxlFsGFx2ecCpBPyU35dGSPFye5bRUr5aNKASrh
+        ZCW+r+NFA+jyy9ywIuFMGHSvuQdA0w9lhh6KGfmke5+dVc6617nMbr7/kuV1+ZLXtBzlKzbbHfxSU7h+
+        xcr4yk7Jp10jv/k87m7HEiSc9ztXsxL+cobqViDIXvcXsXX5tp2W2wt6VMMz3uC8q13PblvWUlEo9Bv4
+        5dAIcLJEgwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="searchButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="searchButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 159</value>
+  </data>
+  <data name="searchButton.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>30, 0, 0, 0</value>
+  </data>
+  <data name="searchButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 45</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="searchButton.TabIndex" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="searchButton.Text" xml:space="preserve">
+    <value>SEARCH FOR PYTHON</value>
+  </data>
+  <data name="&gt;&gt;searchButton.Name" xml:space="preserve">
+    <value>searchButton</value>
+  </data>
+  <data name="&gt;&gt;searchButton.Type" xml:space="preserve">
+    <value>RJCodeAdvance.RJControls.RJButton, RJCodeAdvance.RJControls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;searchButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;searchButton.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="librariesButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="librariesButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="librariesButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEQElE
+        QVRYR+2X/U9TVxjHb0L8H5Yuuf/Ekm1uauIGDuVFLIKZdUCV2UJLKfhCUKa0RRkgrUWgL1KIwowpbpmg
+        otXJeHOKgi+TqaUu3m3+MP0jnj3fU7ux9rZrHWH+sJt8csM95zzf73nOeU4P0hvzLF7xgFWRkE/DyKl4
+        Pjsiv/xpmpkSvFiYlJ9NDHKbN6FvHJoIa0Drb08k5Gd8b/Pbw0QiV/1KUkI+5fntEeXlo2mFxRl+L0wq
+        zyaGRJvqmBiIHfKxhphkTNwn/fxdICtyxet5crGLHo86UzPipF9mgvTix3H6/cH1KPev0dOQn9s61ccs
+        IcwarOV+Cs2QV5LCY93S4uVezcOgbXF+oI7mAhaaD9QmBe0Lww4RKHzBHWX0ON0fbEhrLDQeBu1haEJb
+        und6P5C5gzLXV0MrAbSgCW1prs8MZG5YMQMMa0HTDAM14D8wIDQzNzAfABa6c9JMsz4TzfrNf35T65+E
+        1zMAkaluA51qLKX23RvJXpFDR3ZuoF7rZrrUrmdT6uNUyNzAPHP+aBk17fiI9pWuI7e5gAYPbqOTe7V0
+        uOxjqt+6lvx7tHTTa1IdH0dmBjDzMZ4hhFsrc+mas5JueKo4G0aa7jHSTG8VDTRsJav2Q2EijUxkZuAW
+        r3Vr5Sci5RC9228RQntL1orZT5wwiH1wqrGE9nAmLrZV/NOeSN8AAiEgAn97pIzu9dcKAycshWTIe5fq
+        tGtERvAdRh36DdRduzkhThzpG7jLBjCzL3jtb3CqIXbhywpq+zyXjPnvkaXoAxrivXCpTS/WP7C/mGzl
+        2cKMWrxXZJYBT12RSD9K7uyhT6m+eA2ZCt+n6oIopsLV1GHYRD94qmmoaRsd3L5e7AtsXLWYTGYZOH2g
+        lJp00QzgGzacmUUhXsVZcOhz6Puu3WJpUBW2imXOwFiHXmy4b1o+EyKzfpOofRhAWWJZ8B0ZQPp7rUWp
+        Zg/SNwBuc+qR4uaybJrkHQ+xm95qkYnLHTvF33e4X9++YrFZUbLLVgUAJXbVuUusLfZC7NSDCEBpeuu3
+        iHNgoKFENUYcmRkAEMJsW/joxXK08VHcVVNALlO+MIZDCkc0lkdtfByZGwAwgXUONm8X4i1c8x2GjdTP
+        S4F9oDYmCa9nIAYqA2+U5dKliO+Xgn9nYBn438BfBvhmA1bcADShLX3dskM659Bp+Hd9EfWu0jmBhaD9
+        1ZX8uODJqIv4hstt5oS+8eCEnOoxhoftOg20JVdNvmTSrs7iD55Jvm6pDYoH4r/NDNOv/A+KYOosPTjT
+        RHN8T1TrvxRoBO06d/mmd7KgLZ4ua6F0zJSnGWgscbORCDtTzjmSM+Y5oIyfcSnjXzkF14c6lfPHjNym
+        S+gbAzERGxqd5ry33JaCqHjsse3KkQ7ps1cdNeRqWg25cipcDeVyj90q99iidDdb5HaLVrXvUhD7MGtA
+        6w15JOkP8vmg5InPUUsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="librariesButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="librariesButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 302</value>
+  </data>
+  <data name="librariesButton.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>30, 0, 0, 0</value>
+  </data>
+  <data name="librariesButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 45</value>
+  </data>
+  <data name="librariesButton.TabIndex" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="librariesButton.Text" xml:space="preserve">
+    <value>INSTALL LIBRARIES</value>
+  </data>
+  <data name="&gt;&gt;librariesButton.Name" xml:space="preserve">
+    <value>librariesButton</value>
+  </data>
+  <data name="&gt;&gt;librariesButton.Type" xml:space="preserve">
+    <value>RJCodeAdvance.RJControls.RJButton, RJCodeAdvance.RJControls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;librariesButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;librariesButton.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="pythonButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="pythonButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABcGlDQ1BpY2MAACjPlZG9S8NQFMVPW0uL
+        tnTQQcQhQxWHFoqCOEoFu1SHtoJVl+Q1aYUkDS8ppbgKLg4FB9HFr8H/QFfBVUEQFEHExX/Ar0VKvK8p
+        tIgOvnBzf5yXc3nvBPBndWbYfSnAMB2ey6Sl5eKKFHpBBEGEqaIys62F/HwBf67PO/hEv02KWfjfGiip
+        NgN8YeJpZnGHeJY4W3cswdvEQ6wil4gPiROcDkh8JXTF42fBZY/fBfNCbo7uJmZK5R5WephVuEE8QRw3
+        9BrrnEfcJKKaS3nqI1SjsJFDBmlIUFDDOnQ4SFI3KbPffam2bxFV8jB6W2iAk6OMCnkTpNZoqkpdI12l
+        R0dD5P4zT1ubmvSmR9JA8Ml138aA0A7Qarru15Hrto6BwCNwYXb9Vcpp5oP0ZleLHwCxTeDssqspu8D5
+        FjD8YMlcbksBKr+mAa+nQLQIDN4A/ateVp19nNwDhQ36RdfA3j4wTt/H1r4Bg/Rn0VMS+DMAAAAJcEhZ
+        cwAADsMAAA7DAcdvqGQAAAKbSURBVDhPnZTfS5phFMeDbbQYW2wX3Qh1ucFYDLab4R8QdjEZLjZjUeL9
+        cHSRQnixwRAvEtaVIJN1YUT4u0lzaEFaqJFaMJaa5vC3NrVpav54dx49jETN2QcEn+953u973uec8/Rd
+        hM/nP9je3v7ocrlS5XKZIgQCgYrFYtHodLox3PZ/qFQqbjwejxKjVCrl3dzc/La+vq72er17xWIxn81m
+        qZ2dnc8ikegWPtKZ1dVVzunpKQWGYcjkDUjXGpEG8/PzTz0ej4FkbLfbtXQ6fQBDrQiFwvvJZDJMzORy
+        +SjKLYyMjPQfHBwsEVOtVvsW5Va2trZE1WqVWl5eJpldyvj4+FA0Gv0FL/85ODh4D+Vm9vf3U5ChD/5e
+        byiXc3h4+IGcp0KheI5SM6VSiSIFwGVXZDIZp1AoUGA6jVIz5EwMBoMKl10Ri8VsYlir1WZQaub4+LgM
+        FdzDZVegdWbz+Txls9nYKDUDRdHDZ5/Nzc09Ruky+v1+//d0On0yOTn5ELVmlErlGDTuOTTwVxqN1o9y
+        W6DRp0lHOJ1OGUptuWG1Wr+Qs3S73UtwRkOoX+Sm0WjkQCFy8KtJJJJnqLeHy+XecTgcOmIaDAZDPp/v
+        vVQq5cCYsWG2Z4+OjowkRqaJAK22wWKxnvB4vI6D0MdgMAb0ev07mOMfmUyGIpWEo6BIAUBLwYUhW1hY
+        oMNXbFQqFdI26XA4fLK2tvYKLTpyd2VlhQlG05DMzO7uLntqaupfAZhM5mgul8vUUwXgXTkwZWG4dwQC
+        waNQKPQb/erEYrGiRqN5iVt6B26kiUgkcoZ+dRKJxB8YkNe4pXfgynsBJnn0qwPFozB8NdRqNQtuniwx
+        IxezyWT6hKGrA2c3AUNxbjabF4eHh2//BSM10V8qr1iAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="pythonButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>699, 232</value>
+  </data>
+  <data name="pythonButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 35</value>
+  </data>
+  <data name="pythonButton.TabIndex" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <data name="&gt;&gt;pythonButton.Name" xml:space="preserve">
+    <value>pythonButton</value>
+  </data>
+  <data name="&gt;&gt;pythonButton.Type" xml:space="preserve">
+    <value>RJCodeAdvance.RJControls.RJButton, RJCodeAdvance.RJControls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pythonButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pythonButton.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="languageLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="languageLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI Semibold, 11.25pt, style=Bold</value>
+  </data>
+  <data name="languageLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 75</value>
+  </data>
+  <data name="languageLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 20</value>
+  </data>
+  <data name="languageLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="languageLabel.Text" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="&gt;&gt;languageLabel.Name" xml:space="preserve">
+    <value>languageLabel</value>
+  </data>
+  <data name="&gt;&gt;languageLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;languageLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;languageLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="pythonLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pythonLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI Semibold, 11.25pt, style=Bold</value>
+  </data>
+  <data name="pythonLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 180</value>
+  </data>
+  <data name="pythonLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 20</value>
+  </data>
+  <data name="pythonLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="pythonLabel.Text" xml:space="preserve">
+    <value>Python path:</value>
+  </data>
+  <data name="&gt;&gt;pythonLabel.Name" xml:space="preserve">
+    <value>pythonLabel</value>
+  </data>
+  <data name="&gt;&gt;pythonLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pythonLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pythonLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="languageBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI Semibold, 9.75pt, style=Bold</value>
+  </data>
+  <data name="languageBox.Items" xml:space="preserve">
+    <value>English - EN</value>
+  </data>
+  <data name="languageBox.Items1" xml:space="preserve">
+    <value>Español - ES</value>
+  </data>
+  <data name="languageBox.Items2" xml:space="preserve">
+    <value>Français - FR</value>
+  </data>
+  <data name="languageBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 65</value>
+  </data>
+  <data name="languageBox.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>200, 30</value>
+  </data>
+  <data name="languageBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="languageBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>403, 30</value>
+  </data>
+  <data name="languageBox.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="&gt;&gt;languageBox.Name" xml:space="preserve">
+    <value>languageBox</value>
+  </data>
+  <data name="&gt;&gt;languageBox.Type" xml:space="preserve">
+    <value>RJCodeAdvance.RJControls.RJComboBox, RJCodeAdvance.RJControls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;languageBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;languageBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="themeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="themeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI Semibold, 11.25pt, style=Bold</value>
+  </data>
+  <data name="themeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 430</value>
+  </data>
+  <data name="themeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="themeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="themeLabel.Text" xml:space="preserve">
+    <value>Theme:</value>
+  </data>
+  <data name="&gt;&gt;themeLabel.Name" xml:space="preserve">
+    <value>themeLabel</value>
+  </data>
+  <data name="&gt;&gt;themeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;themeLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;themeLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="themeBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI Semibold, 9.75pt, style=Bold</value>
+  </data>
+  <data name="themeBox.Items" xml:space="preserve">
+    <value>Dark</value>
+  </data>
+  <data name="themeBox.Items1" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="themeBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 420</value>
+  </data>
+  <data name="themeBox.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>200, 30</value>
+  </data>
+  <data name="themeBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="themeBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>403, 30</value>
+  </data>
+  <data name="themeBox.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="&gt;&gt;themeBox.Name" xml:space="preserve">
+    <value>themeBox</value>
+  </data>
+  <data name="&gt;&gt;themeBox.Type" xml:space="preserve">
+    <value>RJCodeAdvance.RJControls.RJComboBox, RJCodeAdvance.RJControls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;themeBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;themeBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="environmentButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="environmentButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="environmentButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABb2lDQ1BpY2MAACjPlZE7SwNBFIW/JIqi
+        kRSKiFikULFIwAeIpUQwTbSIEXw1ybqbCHksuxsk2Ao2FgEL0cZX4T/QVrBVEARFELHxD/hqJKx3EiEi
+        WjjD7P04s+cycwa8sayWsxsGIZd3rHg0EpybXwg2PeGnk1aG8CU125yamUzw53i/waPqdVj14n+jdVm3
+        NfA0C49qpuUIjwvHVh1T8aZwh5ZJLgvvC4csOaDwhdJTNX5UnK7xq2IrEZ+Qu6mewfQ3Tn1jLWPlhAeE
+        e3PZovZ1HnUTv56fnZHaLasHmzhRIgRJUWSFLA5hqXnJ7HffYNU3TUE8mnxNSljiSJMRb0jUonTVpRqi
+        6zKzlFTuP/O0jZHhWnd/BBofXPelD5q2oFJ23Y8D160cgu8ezvJ1f0FyGnsTvVzXevcgsA4n53UttQ2n
+        G9B1ZyatZFXyyfIaBjwfQ9s8tF9By2Itq699jm4hsSZPdAk7u9Av/weWPgH5ZGgHV01Y4gAAAAlwSFlz
+        AAJ17AACdewBfW7rfAAAAc9JREFUWEft1jtLHFEAxfHVgDHkA0QMCIJELUQkVqKdgkVqIViIMYqKTTpB
+        SGPvF1BTBbXzAdEiIVglChIxTZqIghKwTgSNj+R/YAculyM7y45isQd+LMw9O3N3584jV859SjU6MYpx
+        jGVI+xtBGyph8xwzWMFq/jMr2t8ypvEMNpv4dwc+wMaVb4tNXLrEH1wE27JiE5e+4i3WoInE46WwCQv6
+        1X1QGrGAa4SdUtiEBU3gDZI8xSKymoRNXDrCSyTRJPRPXCHuFsvGFQ/Rj4dQaqFJnMP107JxRdnHazyG
+        UocllHJ12Lhi4hiv8AgV6MABXDcNG1cMfcQTKPXQZep6adi4omjR/cALVEEPkx78guunYeOKuhvuoBeK
+        /v4WlPrcsIlL+uU6eDcUHbwVnxF3i2UTl/YQHlzPcq0DjWlRag3I1g00tgt3G7cJC38xjCS6HW9AY6eY
+        ym9rKqALnxDuW2zCgs79ABS9qKwjGfuNCeiSLKQBycRDNnHpJ+bwLdgmeh6cYBtfkJyKmMa+4wzh98Um
+        Lt0mG51bV86aFqWNXhrdF7KktfUeNlowk5jHu/xnVrS/WWjx1sDmAdoxiCHo4ZMV7U9XVTPKKSdILvcf
+        FAQdwe6Gy6YAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="environmentButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="environmentButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 302</value>
+  </data>
+  <data name="environmentButton.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>30, 0, 0, 0</value>
+  </data>
+  <data name="environmentButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 45</value>
+  </data>
+  <data name="environmentButton.TabIndex" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="environmentButton.Text" xml:space="preserve">
+    <value>CREATE ENVIRONMENT</value>
+  </data>
+  <data name="&gt;&gt;environmentButton.Name" xml:space="preserve">
+    <value>environmentButton</value>
+  </data>
+  <data name="&gt;&gt;environmentButton.Type" xml:space="preserve">
+    <value>RJCodeAdvance.RJControls.RJButton, RJCodeAdvance.RJControls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;environmentButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;environmentButton.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="settingsButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="settingsButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="settingsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>371, 517</value>
+  </data>
+  <data name="settingsButton.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 30, 0</value>
+  </data>
+  <data name="settingsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>353, 55</value>
+  </data>
+  <data name="settingsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>151</value>
+  </data>
+  <data name="settingsButton.Text" xml:space="preserve">
+    <value>APPLY CHANGES</value>
+  </data>
+  <data name="settingsButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="settingsButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>TextBeforeImage</value>
+  </data>
+  <data name="&gt;&gt;settingsButton.Name" xml:space="preserve">
+    <value>settingsButton</value>
+  </data>
+  <data name="&gt;&gt;settingsButton.Type" xml:space="preserve">
+    <value>GanBuilder.controls.CueButton, GanBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;settingsButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;settingsButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pythonBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.5pt</value>
+  </data>
+  <data name="pythonBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 232</value>
+  </data>
+  <data name="pythonBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="pythonBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
+  <data name="pythonBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>635, 31</value>
+  </data>
+  <data name="pythonBox.TabIndex" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="&gt;&gt;pythonBox.Name" xml:space="preserve">
+    <value>pythonBox</value>
+  </data>
+  <data name="&gt;&gt;pythonBox.Type" xml:space="preserve">
+    <value>GanBuilder.controls.CueTextbox, GanBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pythonBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pythonBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>752, 598</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;pythonBrowser.Name" xml:space="preserve">
+    <value>pythonBrowser</value>
+  </data>
+  <data name="&gt;&gt;pythonBrowser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

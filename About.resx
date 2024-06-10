@@ -1,0 +1,814 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 33</value>
+  </data>
+  <data name="pictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 125</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox.Name" xml:space="preserve">
+    <value>pictureBox</value>
+  </data>
+  <data name="&gt;&gt;pictureBox.Type" xml:space="preserve">
+    <value>RJCodeAdvance.RJControls.RJCircularPictureBox, RJCodeAdvance.RJControls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pictureBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="nameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="nameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 15.75pt, style=Bold</value>
+  </data>
+  <data name="nameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 180</value>
+  </data>
+  <data name="nameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 30</value>
+  </data>
+  <data name="nameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="nameLabel.Text" xml:space="preserve">
+    <value>Monica Cue</value>
+  </data>
+  <data name="&gt;&gt;nameLabel.Name" xml:space="preserve">
+    <value>nameLabel</value>
+  </data>
+  <data name="&gt;&gt;nameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nameLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;nameLabel.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 12pt, style=Bold</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 234</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 21</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Data Scientist and AI Developer</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="slogan.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 12pt</value>
+  </data>
+  <data name="slogan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 282</value>
+  </data>
+  <data name="slogan.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="slogan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 65</value>
+  </data>
+  <data name="slogan.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="slogan.Text" xml:space="preserve">
+    <value>"I code no bugs, only undocumented features! "</value>
+  </data>
+  <data name="&gt;&gt;slogan.Name" xml:space="preserve">
+    <value>slogan</value>
+  </data>
+  <data name="&gt;&gt;slogan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;slogan.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;slogan.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="mathLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mathLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 12pt</value>
+  </data>
+  <data name="mathLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 389</value>
+  </data>
+  <data name="mathLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 21</value>
+  </data>
+  <data name="mathLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="mathLabel.Text" xml:space="preserve">
+    <value>Math skills</value>
+  </data>
+  <data name="&gt;&gt;mathLabel.Name" xml:space="preserve">
+    <value>mathLabel</value>
+  </data>
+  <data name="&gt;&gt;mathLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mathLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mathLabel.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="tensorflowLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tensorflowLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 12pt</value>
+  </data>
+  <data name="tensorflowLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 423</value>
+  </data>
+  <data name="tensorflowLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="tensorflowLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tensorflowLabel.Text" xml:space="preserve">
+    <value>Tensorflow</value>
+  </data>
+  <data name="&gt;&gt;tensorflowLabel.Name" xml:space="preserve">
+    <value>tensorflowLabel</value>
+  </data>
+  <data name="&gt;&gt;tensorflowLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tensorflowLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tensorflowLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="pandasLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pandasLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 12pt</value>
+  </data>
+  <data name="pandasLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 457</value>
+  </data>
+  <data name="pandasLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 21</value>
+  </data>
+  <data name="pandasLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="pandasLabel.Text" xml:space="preserve">
+    <value>Pandas</value>
+  </data>
+  <data name="&gt;&gt;pandasLabel.Name" xml:space="preserve">
+    <value>pandasLabel</value>
+  </data>
+  <data name="&gt;&gt;pandasLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pandasLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pandasLabel.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="pythonLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pythonLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 12pt</value>
+  </data>
+  <data name="pythonLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 385</value>
+  </data>
+  <data name="pythonLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 21</value>
+  </data>
+  <data name="pythonLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="pythonLabel.Text" xml:space="preserve">
+    <value>Python</value>
+  </data>
+  <data name="&gt;&gt;pythonLabel.Name" xml:space="preserve">
+    <value>pythonLabel</value>
+  </data>
+  <data name="&gt;&gt;pythonLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pythonLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pythonLabel.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="csLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="csLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 12pt</value>
+  </data>
+  <data name="csLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 418</value>
+  </data>
+  <data name="csLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 21</value>
+  </data>
+  <data name="csLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="csLabel.Text" xml:space="preserve">
+    <value>C#</value>
+  </data>
+  <data name="&gt;&gt;csLabel.Name" xml:space="preserve">
+    <value>csLabel</value>
+  </data>
+  <data name="&gt;&gt;csLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;csLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;csLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="mathplotlibLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mathplotlibLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 12pt</value>
+  </data>
+  <data name="mathplotlibLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 528</value>
+  </data>
+  <data name="mathplotlibLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 21</value>
+  </data>
+  <data name="mathplotlibLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="mathplotlibLabel.Text" xml:space="preserve">
+    <value>Mathplotlib</value>
+  </data>
+  <data name="&gt;&gt;mathplotlibLabel.Name" xml:space="preserve">
+    <value>mathplotlibLabel</value>
+  </data>
+  <data name="&gt;&gt;mathplotlibLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mathplotlibLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mathplotlibLabel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="javaLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="javaLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 12pt</value>
+  </data>
+  <data name="javaLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 453</value>
+  </data>
+  <data name="javaLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 21</value>
+  </data>
+  <data name="javaLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="javaLabel.Text" xml:space="preserve">
+    <value>Java</value>
+  </data>
+  <data name="&gt;&gt;javaLabel.Name" xml:space="preserve">
+    <value>javaLabel</value>
+  </data>
+  <data name="&gt;&gt;javaLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;javaLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;javaLabel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="numpyLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="numpyLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 12pt</value>
+  </data>
+  <data name="numpyLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 493</value>
+  </data>
+  <data name="numpyLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 21</value>
+  </data>
+  <data name="numpyLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="numpyLabel.Text" xml:space="preserve">
+    <value>Numpy</value>
+  </data>
+  <data name="&gt;&gt;numpyLabel.Name" xml:space="preserve">
+    <value>numpyLabel</value>
+  </data>
+  <data name="&gt;&gt;numpyLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numpyLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numpyLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="ide.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 9.75pt</value>
+  </data>
+  <data name="ide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 3</value>
+  </data>
+  <data name="ide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 256</value>
+  </data>
+  <data name="ide.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="ide.Text" xml:space="preserve">
+    <value># Parameters:
+name = "Monica Cue"
+hobbies = []
+proffesion = []
+proffesion.append("Data Scientist")
+proffesion.append("AI Developer")
+hobbies.append("Play chess")
+hobbies.append("Reading books")
+hobbies.append("Learn new things")
+age = 18
+country = "Mexico"
+code_age = 9
+
+# Function:
+def introduce_myself(name, age, country, proffesion, hobbies, code_age):
+    print(f"Hi my name is {name}, I'm {age} years old, and I'm from {country}.")
+    print(f"I learn to code at the age of {code_age}.")
+    print(f"Now I'm a {proffesion[0]} and an {proffesion[1]}.")
+    print("Some of my hobbies are: ")
+    for i in range(len(hobbies)):
+        print("     " + str(i)+ ". " + hobbies[i])
+
+introduce_myself(name, age, country, proffesion, hobbies, code_age)</value>
+  </data>
+  <data name="&gt;&gt;ide.Name" xml:space="preserve">
+    <value>ide</value>
+  </data>
+  <data name="&gt;&gt;ide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ide.Parent" xml:space="preserve">
+    <value>idePanel</value>
+  </data>
+  <data name="&gt;&gt;ide.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="idePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 33</value>
+  </data>
+  <data name="idePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>394, 262</value>
+  </data>
+  <data name="idePanel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;idePanel.Name" xml:space="preserve">
+    <value>idePanel</value>
+  </data>
+  <data name="&gt;&gt;idePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;idePanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;idePanel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="timer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="javaBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>481, 457</value>
+  </data>
+  <data name="javaBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 12</value>
+  </data>
+  <data name="javaBar.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;javaBar.Name" xml:space="preserve">
+    <value>javaBar</value>
+  </data>
+  <data name="&gt;&gt;javaBar.Type" xml:space="preserve">
+    <value>GanBuilder.controls.CueProgressbar, GanBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;javaBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;javaBar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="csBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>481, 423</value>
+  </data>
+  <data name="csBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 12</value>
+  </data>
+  <data name="csBar.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;csBar.Name" xml:space="preserve">
+    <value>csBar</value>
+  </data>
+  <data name="&gt;&gt;csBar.Type" xml:space="preserve">
+    <value>GanBuilder.controls.CueProgressbar, GanBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;csBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;csBar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pythonBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>481, 389</value>
+  </data>
+  <data name="pythonBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 12</value>
+  </data>
+  <data name="pythonBar.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;pythonBar.Name" xml:space="preserve">
+    <value>pythonBar</value>
+  </data>
+  <data name="&gt;&gt;pythonBar.Type" xml:space="preserve">
+    <value>GanBuilder.controls.CueProgressbar, GanBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pythonBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pythonBar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mathplotlibBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 539</value>
+  </data>
+  <data name="mathplotlibBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 12</value>
+  </data>
+  <data name="mathplotlibBar.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;mathplotlibBar.Name" xml:space="preserve">
+    <value>mathplotlibBar</value>
+  </data>
+  <data name="&gt;&gt;mathplotlibBar.Type" xml:space="preserve">
+    <value>GanBuilder.controls.CueProgressbar, GanBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mathplotlibBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mathplotlibBar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="numpyBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 504</value>
+  </data>
+  <data name="numpyBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 12</value>
+  </data>
+  <data name="numpyBar.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;numpyBar.Name" xml:space="preserve">
+    <value>numpyBar</value>
+  </data>
+  <data name="&gt;&gt;numpyBar.Type" xml:space="preserve">
+    <value>GanBuilder.controls.CueProgressbar, GanBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;numpyBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numpyBar.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pandasBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 464</value>
+  </data>
+  <data name="pandasBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 12</value>
+  </data>
+  <data name="pandasBar.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;pandasBar.Name" xml:space="preserve">
+    <value>pandasBar</value>
+  </data>
+  <data name="&gt;&gt;pandasBar.Type" xml:space="preserve">
+    <value>GanBuilder.controls.CueProgressbar, GanBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pandasBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pandasBar.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tensorflowBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 429</value>
+  </data>
+  <data name="tensorflowBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 12</value>
+  </data>
+  <data name="tensorflowBar.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;tensorflowBar.Name" xml:space="preserve">
+    <value>tensorflowBar</value>
+  </data>
+  <data name="&gt;&gt;tensorflowBar.Type" xml:space="preserve">
+    <value>GanBuilder.controls.CueProgressbar, GanBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tensorflowBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tensorflowBar.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="mathBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 396</value>
+  </data>
+  <data name="mathBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 12</value>
+  </data>
+  <data name="mathBar.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;mathBar.Name" xml:space="preserve">
+    <value>mathBar</value>
+  </data>
+  <data name="&gt;&gt;mathBar.Type" xml:space="preserve">
+    <value>GanBuilder.controls.CueProgressbar, GanBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mathBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mathBar.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="aboutButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="aboutButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="aboutButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>432, 503</value>
+  </data>
+  <data name="aboutButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 48</value>
+  </data>
+  <data name="aboutButton.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="aboutButton.Text" xml:space="preserve">
+    <value>GITHUB</value>
+  </data>
+  <data name="aboutButton.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>TextBeforeImage</value>
+  </data>
+  <data name="&gt;&gt;aboutButton.Name" xml:space="preserve">
+    <value>aboutButton</value>
+  </data>
+  <data name="&gt;&gt;aboutButton.Type" xml:space="preserve">
+    <value>GanBuilder.controls.CueButton, GanBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;aboutButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;aboutButton.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="executeButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="executeButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="executeButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>571, 325</value>
+  </data>
+  <data name="executeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 40</value>
+  </data>
+  <data name="executeButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="executeButton.Text" xml:space="preserve">
+    <value>EXECUTE</value>
+  </data>
+  <data name="&gt;&gt;executeButton.Name" xml:space="preserve">
+    <value>executeButton</value>
+  </data>
+  <data name="&gt;&gt;executeButton.Type" xml:space="preserve">
+    <value>GanBuilder.controls.CueButton, GanBuilder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;executeButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;executeButton.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <metadata name="ideTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>92, 18</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>752, 598</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;timer.Name" xml:space="preserve">
+    <value>timer</value>
+  </data>
+  <data name="&gt;&gt;timer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ideTimer.Name" xml:space="preserve">
+    <value>ideTimer</value>
+  </data>
+  <data name="&gt;&gt;ideTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

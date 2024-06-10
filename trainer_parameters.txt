@@ -1,0 +1,9 @@
+0
+C:\Users\Mónica Emmanuelle\Documents\Datasets\Flickr\blurred
+C:\Users\Mónica Emmanuelle\Documents\Datasets\Flickr\target
+C:\Users\Mónica Emmanuelle\Documents\Datasets\Flickr
+model
+10000
+10
+10
+100
